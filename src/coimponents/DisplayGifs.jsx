@@ -10,7 +10,7 @@ const DisplayGifs = ({ category }) => {
         <div className='container-gifs'>
             {
                 !loading && data && data.map(img => (
-                    <ImageItem key={img.id} title={img.title} url={img.images.downsized_medium.url} />
+                    <ImageItem className="imagenitem" key={img.id} title={img.title} url={img.images.downsized_medium.url} />
                 ))
             }
         </div>

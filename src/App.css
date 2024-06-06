@@ -10,6 +10,13 @@ body{
   margin-top: 6%;  
 
 }
+.imagenitem{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeInUp; 
+  animation-duration: 2s; 
+
+}
 
 .paquete{
   display: inline-block;
